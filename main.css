@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container h1, .container h2,
+.container h3, footer .container {
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+.container h2 {
+    font-size: 45px;
+}
+
+.container h3 {
+    font-size: 30px;
+    color: cornflowerblue;
+}
+
+.container h4 {
+    font-family: 'Labrada', serif;
+    font-weight: 400;
+}
+
+.paragraphs p {
+    font-family: 'Labrada', serif;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contacts form h4 {
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-size: 25px;
+}
+
+body {
+    padding: 5px;
+    background-color: rgba(95, 59, 184, 0.2);
+    color: ghostwhite;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+header .container h1 a {
+    color: rgba(61, 112, 54, 0.87);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+header .container li {
+    display: inline;
+}
+
+header .container li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline;
+    margin: 5px;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    color: rgba(61, 112, 54, 0.87);
+    font-weight: bolder;
+}
+
+header .container li a:hover {
+    text-decoration: underline dashed ghostwhite;
+    color: cornflowerblue;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1920px;
+    width: 85%;
+    border-radius: 5px;
+    background-color: rgba(60, 209, 184, 0.334);
+}
+
+.container h1, .container h2 {
+    color:rgba(61, 112, 54, 0.87);
+}
+
+.paragraphs {
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.paragraphs img  {
+    max-height: 500px;
+    margin: 10px;
+}
+
+.paragraphs video {
+    margin: 10px;
+}
+
+.paragraphs p {
+    max-width: 700px;
+    width: 90%;
+}
+
+.paragraph-model {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+#webStorm {
+    max-width: 570px;
+    width: 90%;
+    padding: 10px;
+}
+
+#second-section .paragraph-model {
+    align-items: center;
+}
+
+input, textarea, button {
+    display: block;
+    justify-content: center;
+    padding: 8px;
+    margin-bottom: 8px;
+    max-width: 240px;
+    width: 100%;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(95, 59, 184, 0.39);
+}
+
+textarea {
+    height: 55px;
+}
+
+button {
+    background-color: rgb(255, 102, 0);
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+    border: 1px dashed ghostwhite;
+    cursor: pointer;
+}
+
+.contact-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.contacts {
+    max-width: 700px;
+    margin-bottom: 45px;
+    padding: 15px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: rgba(95, 59, 184, 0.39);
+}
+
+.contacts a {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+    color: rgba(122, 69, 244, 0.8);
+}
+
+footer .container {
+    margin-top: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
